@@ -9,6 +9,11 @@ app-layout {
   grid-template-rows: 60px 1fr;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 main {
   display: grid;
   align-items: center;
