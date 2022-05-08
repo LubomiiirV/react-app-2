@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./Views/Home";
 import About from "./Views/About";
+import Page404 from "./Views/Page404";
 
 const container = document.querySelector("app-layout");
 const root = ReactDOM.createRoot(container);
@@ -12,9 +13,9 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route path="" element={<Home />}></Route>
-
-        <Route path="about" element={<About />}></Route>
+        <Route path="" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="*" element={<Page404 />} />
       </Route>
     </Routes>
   </BrowserRouter>
