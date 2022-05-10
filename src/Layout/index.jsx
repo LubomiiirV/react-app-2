@@ -14,6 +14,9 @@ function Layout() {
       <main>
         <Outlet />
       </main>
+      <footer>
+        <p>Na tejto stránke pracoval @LuboWeb</p>
+      </footer>
     </>
   );
 }

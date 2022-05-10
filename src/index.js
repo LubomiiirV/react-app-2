@@ -5,7 +5,6 @@ import Layout from "./Layout";
 import Home from "./Views/Home";
 import About from "./Views/About";
 import Page404 from "./Views/Page404";
-import Footer from "./Views/Footer";
 
 const container = document.querySelector("app-layout");
 const root = ReactDOM.createRoot(container);
@@ -17,7 +16,6 @@ root.render(
         <Route path="" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="*" element={<Page404 />} />
-        <Route path="footer" element={<Footer />} />
       </Route>
     </Routes>
   </BrowserRouter>

@@ -14,8 +14,21 @@ header {
   justify-content: space-between;
 }
 
+a:-webkit-any-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  margin: 15px;
+}
+
 main {
   display: grid;
   align-items: center;
   justify-items: center;
+}
+
+footer p{
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
