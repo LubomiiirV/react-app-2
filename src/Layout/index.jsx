@@ -7,9 +7,9 @@ function Layout() {
       <header>
         <h1>My First SPA</h1>
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/services">Services</Link>
+          <Link to="/" >Home</Link>
+          <Link to="/about" >About</Link>
+          <Link to="/services" >Services</Link>
         </nav>
       </header>
       <main>

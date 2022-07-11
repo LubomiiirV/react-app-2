@@ -1,4 +1,5 @@
 body {
+  background-color: aquamarine;
   margin: 0;
   height: 100vh;
 }
@@ -9,9 +10,22 @@ app-layout {
   grid-template-rows: 60px 1fr;
 }
 
+
 header {
   display: flex;
   justify-content: space-between;
+}
+
+header h1 {
+  margin: 10px 20px auto
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a:hover {
+  color: aqua;
 }
 
 a:-webkit-any-link {
@@ -21,13 +35,15 @@ a:-webkit-any-link {
   margin: 15px;
 }
 
+
 main {
+  background-color: aliceblue;
   display: grid;
   align-items: center;
   justify-items: center;
 }
 
-footer p{
+footer p {
   margin: 0;
   padding: 0;
   text-align: center;
