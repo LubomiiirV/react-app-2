@@ -16,7 +16,7 @@ function Layout() {
       </main>
       <footer>
         <p>Na tejto stránke pracoval @LuboWeb</p>
-      </footer>
+      </footer>cxvxv
     </>
   );
 }
