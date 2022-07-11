@@ -9,6 +9,7 @@ function Layout() {
         <nav>
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
+          <Link to="/services">Services</Link>
         </nav>
       </header>
       <main>
